@@ -1,0 +1,19 @@
+name: Create File
+
+on:
+  workflow_dispatch:
+
+jobs:
+  # This workflow contains a single job called "build"
+  createFile:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Run a one-line script
+        run: |
+          touch test.txt
+          echo "Hello, world!" >>  test.txt
+          echo "I'm here" >>  test.txt
+          echo ls -l >>  test.txt
+          cat test.txt
