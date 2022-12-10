@@ -1,4 +1,4 @@
-name: Cloud Storage Uploader
+name: CloudStorageUploader
 
 # Controls when the workflow will run
 on:
