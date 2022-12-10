@@ -15,5 +15,5 @@ jobs:
           touch test.txt
           echo "Hello, world!" >>  test.txt
           echo "I'm here" >>  test.txt
-          echo ls -l >>  test.txt
+          ls -l >>  test.txt
           cat test.txt
