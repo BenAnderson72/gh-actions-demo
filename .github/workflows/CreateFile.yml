@@ -29,6 +29,7 @@ jobs:
         with:
           workload_identity_provider: 'projects/97614556481/locations/global/workloadIdentityPools/identitypool1/providers/wip1'
           service_account: 'gcs-service-account1-284@surfbuddy1.iam.gserviceaccount.com'
+          token_format: 'access_token'
 
       - id: 'upload-file'
         uses: 'google-github-actions/upload-cloud-storage@v1'
